@@ -1,4 +1,4 @@
-declare namespace NodeJs {
+declare namespace NodeJS {
   interface ProcessEnv {
     BOT_TOKEN: string;
   }
