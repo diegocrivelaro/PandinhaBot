@@ -17,7 +17,11 @@
     "declaration": false,
     "resolveJsonModule": true,
     "importHelpers": true,
-    "experimentalDecorators": true
+    "experimentalDecorators": true,
+    "paths": {
+      "@/*": ["./src/*"],
+      "@structs/*": ["./src/structs/*"]
+    }
   },
   "include": ["src"],
   "exclude": ["node_modules", "**/*.spec.ts"]
