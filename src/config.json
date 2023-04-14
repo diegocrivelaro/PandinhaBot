@@ -1,4 +1,5 @@
 {
+  "prefix": "!pd",
   "colors": {
     "red": "#ff4040",
     "white": "#fff"
