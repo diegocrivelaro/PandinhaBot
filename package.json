@@ -11,13 +11,14 @@
     "build": "tsc src/index.ts",
     "start": "node dist/index.js"
   },
+  "dependencies": {
+    "discord.js": "14.9.0"
+  },
   "devDependencies": {
+    "colors": "1.4.0",
     "dotenv": "16.0.3",
     "nodemon": "2.0.22",
     "ts-node": "10.9.1",
     "typescript": "5.0.3"
-  },
-  "dependencies": {
-    "discord.js": "14.9.0"
   }
 }
